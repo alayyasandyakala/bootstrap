@@ -14,6 +14,9 @@
         style="height: 100vh"
       >
         <div class="col-md-5">
+          <div class="alert alert-danger" role="alert">
+            Data telah berhasil disimpan.
+          </div>
           <div class="card">
             <div class="card-body">
               <h4 class="text-center font-weight-bold">LOGIN</h4>
@@ -25,8 +28,11 @@
                     type="text"
                     name="email"
                     id="email"
-                    class="form-control"
+                    class="form-control is-invalid"
                   />
+                  <span class="invalid-feedback"
+                    >Sorry, the email you entered could not be found.</span
+                  >
                 </div>
                 <div class="form-group mb-4">
                   <label for="password">Password</label>
