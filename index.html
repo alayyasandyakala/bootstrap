@@ -7,36 +7,42 @@
     <link rel="stylesheet" href="Assets/css/bootstrap.min.css" />
   </head>
   <body>
-    <!-- Small: <=576px, Medium: >=768px, Large: >=992px, Extra large: >=1200px -->
+    <!-- Let's do some login form with Bootstrap 5 -->
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <h4>Content</h4>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium ut omnis, pariatur voluptatibus quaerat culpa cumque,
-            quidem quas nesciunt.
-          </p>
-          <p>
-            Exercitationem ullam deserunt reprehenderit et. Deserunt repellendus
-            sapiente alias nesciunt obcaecati omnis, quas quasi amet harum
-            molestias.
-          </p>
-          <p>
-            Facere soluta alias nisi qui itaque nulla, voluptates eaque! Vero et
-            consequuntur incidunt, doloremque exercitationem fugiat ad amet
-            sequi.
-          </p>
-          <p>
-            Nulla, temporibus ipsum, unde velit dolorem cupiditate sunt
-            accusantium harum, optio provident blanditiis. Cumque, sapiente
-            distinctio nobis.
-          </p>
-          <p>
-            Rerum omnis aspernatur amet recusandae molestias ut expedita
-            suscipit, quas, placeat aperiam minus a incidunt temporibus sed fuga
-            cumque quibusdam.
-          </p>
+      <div
+        class="row justify-content-center align-items-center"
+        style="height: 100vh"
+      >
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="text-center font-weight-bold">LOGIN</h4>
+              <hr />
+              <form action="#" autocomplete="off">
+                <div class="form-group mb-3">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group mb-4">
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    class="form-control"
+                  />
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mt-3">
+                  LOGIN
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
